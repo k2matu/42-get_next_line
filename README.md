@@ -20,7 +20,7 @@ Replace \<file\> with the names of your source file.
 cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line get_next_line_utils.c <file>.c
 ```
 
-Ensure that you include the necessary header file in your source code where get_next_line is used.
+Ensure that you include the necessary header file in your source file where get_next_line is used.
 ### Example:
 ```
 #include "get_next_line.h"
