@@ -15,7 +15,7 @@ git clone git@github.com:k2matu/get_next_line.git
 cd get_next_line
 ```
 3. To compile your code, use the following command, adjusting the BUFFER_SIZE as needed (e.g., 42). 
-Replace <file> with the names of your source file.
+Replace \<file\> with the names of your source file.
 ```
 cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line get_next_line_utils.c <file>.c
 ```
