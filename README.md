@@ -5,6 +5,9 @@ Function Prototype:
 ```
 char *get_next_line(int fd);
 ```
+## Prerequisites
+- A C compiler (e.g., `gcc` or `clang`)  
+
 ## Compilation
 1. Clone the repository:
 ```
