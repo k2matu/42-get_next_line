@@ -11,7 +11,7 @@ char *get_next_line(int fd);
 ## Compilation
 1. Clone the repository:
 ```
-git clone git@github.com:k2matu/42-get_next_line.git  get_next_line
+git clone git@github.com:k2matu/42-get_next_line.git get_next_line
 ````
 2. Navigate into the directory:
 ```
