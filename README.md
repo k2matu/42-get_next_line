@@ -1,5 +1,5 @@
 # Get Next Line
-Get Next Line is a function that reads a text file one line at a time using repeated calls. This function is designed to be used with a file descriptor, returning each line of the file sequentially. This project demonstrates my understanding of static variables.
+**Get Next Line** is a function that reads a text file one line at a time using repeated calls. This function is designed to be used with a file descriptor, returning each line of the file sequentially. This project demonstrates my understanding of static variables.
 
 Function Prototype:
 ```
@@ -8,7 +8,7 @@ char *get_next_line(int fd);
 ## Compilation
 1. Clone the repository:
 ```
-git clone git@github.com:k2matu/get_next_line.git
+git clone git@github.com:k2matu/42-get_next_line.git  get_next_line
 ````
 2. Navigate into the directory:
 ```
@@ -21,7 +21,7 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line get_next_line_utils.c <
 ```
 
 Ensure that you include the necessary header file in your source file where get_next_line is used.
-### Example:
+#### Example:
 ```
 #include "get_next_line.h"
 #include <fcntl.h>
