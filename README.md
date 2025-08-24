@@ -54,7 +54,7 @@ The names Joe Bloggs or John Smith are used in the UK instead, as well as in Aus
 
 5. To compile your code, use the following command, adjusting the BUFFER_SIZE as needed (e.g., 42). 
 ```
-cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line get_next_line_utils.c my_program.c -o my_program
+cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c my_program.c -o my_program
 ```
 6. Run the program: 
 ```
